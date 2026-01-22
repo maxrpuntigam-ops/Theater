@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,95 +8,129 @@
 
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Segoe UI", Arial, sans-serif;
             margin: 0;
-            background-color: #f4f4f4;
+            background-color: #f3f3f3;
             color: #333;
+            line-height: 1.6;
         }
 
         header {
-            background-color: #7b1e1e;
+            background: linear-gradient(135deg, #7b1e1e, #a82828);
             color: white;
-            padding: 20px;
+            padding: 40px 20px;
             text-align: center;
         }
 
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
         header img {
-            width: 200px;
-            margin-top: 10px;
+            max-width: 100%;
+            width: 600px;
+            border-radius: 10px;
+            margin-top: 20px;
         }
 
         section {
             background-color: white;
-            margin: 20px auto;
-            padding: 20px;
-            max-width: 800px;
-            border-radius: 8px;
+            margin: 30px auto;
+            padding: 25px;
+            max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
             color: #7b1e1e;
+            margin-top: 0;
         }
 
         ul {
-            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background-color: #fbeaea;
+            border-left: 6px solid #7b1e1e;
         }
 
         .karten {
             background-color: #eee;
-            padding: 15px;
-            border-radius: 8px;
             text-align: center;
+        }
+
+        .karten strong {
+            font-size: 1.3em;
         }
 
         footer {
             text-align: center;
-            padding: 10px;
+            padding: 15px;
             background-color: #7b1e1e;
             color: white;
+            margin-top: 40px;
         }
     </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Murfelder Theatermacher</h1>
-    <img src="https://cdn.citiesapps.com/images/eyJidWNrZXQiOiJhcHBsaWNhdGlvbi1wcm9kLXBhZ2VzLWJ1Y2tldCIsImtleSI6ImViOWM2MzMxMDA0Y2MwNWM2YWFjZTc0Ni9pbWFnZXMvYmFubmVyLzE3MzEzMjA1MDkyODBfMjcyOTAxODQyXzQ3OTU4MzIyMDE3NzI5OV80MTg3NjU3MzkwMDI1NjQ4MzM0X24ucG5nIiwiZWRpdHMiOnsiY3JvcCI6eyJ3aWR0aCI6MTc1NCwiaGVpZ2h0Ijo3NTIsInRvcCI6MTU2LCJsZWZ0IjowfSwicm90YXRlIjowLCJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJoZWlnaHQiOjU2Miwid2lkdGgiOjEzMTIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19fQ==" alt="Theater Logo">
-</header>
+    <header>
+        <img src="https://cdn.citiesapps.com/images/eyJidWNrZXQiOiJhcHBsaWNhdGlvbi1wcm9kLXBhZ2VzLWJ1Y2tldCIsImtleSI6ImViOWM2MzMxMDA0Y2MwNWM2YWFjZTc0Ni9pbWFnZXMvYmFubmVyLzE3MzEzMjA1MDkyODBfMjcyOTAxODQyXzQ3OTU4MzIyMDE3NzI5OV80MTg3NjU3MzkwMDI1NjQ4MzM0X24ucG5nIiwiZWRpdHMiOnsiY3JvcCI6eyJ3aWR0aCI6MTc1NCwiaGVpZ2h0Ijo3NTIsInRvcCI6MTU2LCJsZWZ0IjowfSwicm90YXRlIjowLCJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJoZWlnaHQiOjU2Miwid2lkdGgiOjEzMTIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19fQ=="
+            alt="Pension Schöller Plakat">
+        <p>präsentieren</p>
+        <h2 style="color:#fff;">🎭 Pension Schöller 🎭</h2>
+    </header>
 
-<section>
-    <h2>🎭 Über uns</h2>
-    <p>
-        Wir sind die Murfelder Theatermacher und bringen mit Leidenschaft
-        Theaterstücke auf die Bühne – für Jung und Alt!
-    </p>
-</section>
+    <section>
+        <h2>🎭 Über uns</h2>
+        <p>
+            Wir sind die <strong>Murfelder Theatermacher</strong> und bringen mit viel
+            Leidenschaft und Humor Theaterstücke auf die Bühne –
+            für Jung und Alt.
+        </p>
+    </section>
 
-<section>
-    <h2>📅 Termine</h2>
-    <ul>
-        <li>15. Mai 2026 – Premiere „Pension Schöller“</li>
-        <li>16. Mai 2026 – Pension Schöller</li>
-        <li>22. Mai 2026 – Pension Schöller</li>
-        <li>23. Mai 2026 – Pension Schöller</li>
-    </ul>
-</section>
+    <section class="highlight">
+        <h2>📅 Aufführungstermine</h2>
+        <ul>
+            <li><strong>15. Mai 2026</strong> – Premiere · 19:30 Uhr</li>
+            <li><strong>16. Mai 2026</strong> – 19:30 Uhr</li>
+            <li><strong>22. Mai 2026</strong> – 19:30 Uhr</li>
+            <li><strong>23. Mai 2026</strong> – 19:30 Uhr</li>
+        </ul>
+    </section>
 
-<section class="karten">
-    <h2>🎟️ Karten & Reservierung</h2>
-    <p>
-        Kartenreservierung telefonisch unter:<br>
-        <strong>📞 0677 630 870 04</strong>
-    </p>
-    <p>
-        Preis: 12 € | Ermäßigt: 8 €
-    </p>
-</section>
+    <section>
+        <h2>📍 Spielort</h2>
+        <p>
+            <strong>Heinz-Neubauer-Kultursaal</strong><br>
+            Straß
+        </p>
+    </section>
 
-<footer>
-    © 2026 Murfelder Theatermacher
-</footer>
+    <section class="karten">
+        <h2>🎟️ Karten & Reservierung</h2>
+        <p>
+            Kartenreservierung telefonisch:<br>
+            <strong>📞 0677 630 870 04</strong>
+        </p>
+        <p>
+            Eintritt: <strong>12 €</strong> | Ermäßigt: <strong>8 €</strong>
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Murfelder Theatermacher
+    </footer>
 
 </body>
+
 </html>
